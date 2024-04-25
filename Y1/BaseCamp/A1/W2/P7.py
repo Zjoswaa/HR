@@ -1,0 +1,6 @@
+colors = ["White", "Black"]
+position = list(input("Position: "))
+if int(ord(position[0].upper())) % 2:  # A, C, E, G, ...
+    print(colors[int(position[1]) % 2])  # White for even, black for odd
+else:  # B, D, F, H, ...
+    print(colors[(int(position[1]) + 1) % 2])  # Black for even, white for odd

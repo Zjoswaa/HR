@@ -1,0 +1,19 @@
+{
+  "emp_details": [
+    {
+      "emp_name": "Shubham",
+      "email": "ksingh.subh@gmail.com",
+      "job_profile": "intern"
+    },
+    {
+      "emp_name": "Gaurav",
+      "email": "gaurav.singh@gmail.com",
+      "job_profile": "developer"
+    },
+    {
+      "emp_name": "Nikhil",
+      "email": "nikhil@hotmail.com",
+      "job_profile": "full-time"
+    }
+  ]
+}
