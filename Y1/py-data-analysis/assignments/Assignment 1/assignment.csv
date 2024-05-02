@@ -1,0 +1,15 @@
+Year,Age,Role,City,Education,Experience,Salary,AdditionalExperience,TotalExperience,SalaryCategory,Bonus
+2018,42,Applicatiebeheerder,Almelo,HAVO,10,4086.0,4,14,Medium,129
+2018,38,Product owner,Rotterdam,WO,17,4290.0,2,19,Medium,230
+2018,29,Software Engineer,Eindhoven,WO,3,4840.0,3,6,Medium,105
+2019,32,Lead Developer,Randstad,HBO,8,3619.0,4,12,Medium,119
+2019,29,Software Engineer,Utrecht,HBO,6,6400.0,3,9,High,188
+2019,28,Software Engineer,Den Haag,HBO,5,5500.0,3,8,High,198
+2019,26,Support Engineer,Zwolle,MBO,2,1800.0,0,2,Low,239
+2020,39,IT Manager,Eindhoven,WO,13,9421.5,4,17,,165
+2020,33,Test Automation Engineer,Den Haag,WO,3,3583.8,3,6,Medium,183
+2020,31,Software Engineer,Tilburg,HBO,4,2750.0,3,7,Low,250
+2020,30,Software Engineer,Utrecht,WO,5,5610.0,1,6,High,172
+2021,39,Lead Developer,Randstad,MBO,15,7700.0,6,21,High,235
+2021,31,Lead Developer,Groningen,WO,5,5610.0,4,9,High,130
+2021,24,Research Engineer,Amsterdam,WO,1,5500.0,2,3,High,128
