@@ -1,0 +1,45 @@
+id,code,name,city,province,country
+NOAAV,40300,Alvik,Ålvik,Hordaland,Norway
+NOAES,,Alesund,Ålesund,Møre og Romsdal,Norway
+NOAGO,,Agotnes,Ågotnes,Hordaland,Norway
+NOAND,40300,Andalsnes,Åndalsnes,Møre og Romsdal,Norway
+NOASV,,Austevoll,Austevoll,Hordaland,Norway
+NOBGO,40311,Bergen,Bergen,Hordaland,Norway
+NOBOO,40369,Bodo,Bodø,Nordland,Norway
+NOBVK,40313,Brevik,Brevik,Telemark,Norway
+NODRM,40321,Drammen,Drammen,Buskerud,Norway
+NOEGD,,Eigersund,Eigersund,Rogaland,Norway
+NOFKG,,Frekhaug,Frekhaug,Hordaland,Norway
+NOFRK,40334,Fredrikstad,Fredrikstad,Østfold,Norway
+NOGJM,,Gjemnes,Gjemnes,Møre og Romsdal,Norway
+NOHES,,Hestvika,Hestvika,Sør-Trøndelag,Norway
+NOHLA,40320,Holla,Holla,Telemark,Norway
+NOHOG,,Hogset,Høgset,Nordland,Norway
+NOHOY,,Husoy - Tonsberg,Husøy - Tønsberg,Vestfold,Norway
+NOHRI,,Hareid,Hareid,Møre og Romsdal,Norway
+NOHRY,,Heroya,Herøya,Telemark,Norway
+NOHUS,,Husnes,Husnes,Hordaland,Norway
+NOHVI,,Havik,Håvik,Nordland,Norway
+NOIKR,,Ikornnes,Ikornnes,Møre og Romsdal,Norway
+NOKMY,,Karmoy,Karmøy,Rogaland,Norway
+NOKSU,,Kristiansund,Kristiansund,Møre og Romsdal,Norway
+NOLAR,40335,Larvik,Larvik,Vestfold,Norway
+NOLND,,Lyngdal,Lyngdal,Vest-Agder,Norway
+NOMOL,,Molde,Molde,Møre og Romsdal,Norway
+NOMON,40373,Mongstad,Mongstad,Hordaland,Norway
+NOMQN,40370,Mo i Rana,Mo i Rana,Nordland,Norway
+NOMSS,40371,Moss,Moss,Østfold,Norway
+NOODD,40300,Odda,Odda,Hordaland,Norway
+NOORK,,Orkanger,Orkanger,Sør-Trøndelag,Norway
+NOOSL,40377,Oslo,Oslo,Oslo,Norway
+NOSAD,40300,Sandefjord,Sandefjord,Vestfold,Norway
+NOSAU,40383,Sauda,Sauda,Rogaland,Norway
+NOSKE,40385,Skien,Skien,Telemark,Norway
+NOSKX,,Skogn,Skogn,Nord-Trøndelag,Norway
+NOSLX,,Sortland,Sortland,Nordland,Norway
+NOSUN,40390,Sunndalsora,Sunndalsøra,Møre og Romsdal,Norway
+NOSVE,40392,Svelgen,Svelgen,Sogn og Fjordane,Norway
+NOSVG,40387,Stavanger,Stavanger,Rogaland,Norway
+NOTON,40300,Tonsberg,Tønsberg,Vestfold,Norway
+NOTOS,40338,Tromso,Tromsø,Troms,Norway
+NOTRD,40397,Trondheim,Trondheim,Sør-Trøndelag,Norway
