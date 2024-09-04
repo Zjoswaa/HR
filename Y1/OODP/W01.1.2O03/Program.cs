@@ -37,5 +37,5 @@ if ((first.ToUpper() == "A" && second.ToUpper() == "D") || (first.ToUpper() == "
 if (points == 3) {
     Console.WriteLine($"Your score: 3 out of 3. Well done!");
 } else {
-    Console.WriteLine($"Your score: 3 out of 3.");
+    Console.WriteLine($"Your score: {points} out of 3.");
 }
