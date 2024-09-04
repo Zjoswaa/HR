@@ -4,9 +4,8 @@ Y1/BaseCamp/venv/
 
 # OODP
 Y1/OODP/.vs/
-Y1/OODP/W00.1.1T01/bin/
-Y1/OODP/W00.1.1T01/obj/
-Y1/OODP/W01.1.1T01/bin/
-Y1/OODP/W01.1.1T01/obj/
-Y1/OODP/W01.1.1T02/bin/
-Y1/OODP/W01.1.1T02/obj/
+*.csproj
+*bin/
+*obj/
+.git/
+.vs/

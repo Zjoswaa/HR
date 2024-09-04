@@ -6,6 +6,7 @@
     <RootNamespace>W01._1._1T02</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Platforms>x64</Platforms>
   </PropertyGroup>
 
 </Project>
