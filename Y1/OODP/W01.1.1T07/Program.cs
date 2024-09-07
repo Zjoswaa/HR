@@ -3,7 +3,7 @@ Console.WriteLine("Le..th");
 string input = Console.ReadLine();
 
 if (input == "Length") {
-    Console.WriteLine("Correct");
+    Console.WriteLine("Correct!");
 } else if (input.ToLower() == "length") {
     Console.WriteLine("Kind of correct; the case was just wrong");
 } else if (input.Length != 6) {

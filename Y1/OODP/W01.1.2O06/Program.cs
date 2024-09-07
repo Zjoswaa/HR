@@ -46,6 +46,7 @@ if (direction < 0) {
 
 Console.WriteLine("From here you can go");
 drawCompass(directions);
+Console.WriteLine();
 
 if (direction > 315 || direction <= 45) {
     if (directions[0]) {

@@ -1,4 +1,4 @@
-﻿static string DetermineSeason(int month, int day) {
+﻿string DetermineSeason(int month, int day) {
     return month switch {
         12 => day >= 21 ? "Winter" : "Autumn",
         1 or 2 => "Winter",
