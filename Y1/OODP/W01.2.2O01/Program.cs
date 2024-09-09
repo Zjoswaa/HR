@@ -30,6 +30,8 @@
             } else {
                 Console.WriteLine($"You have paid {totalPay}");
             }
+        } else {
+            Console.WriteLine($"You have paid {totalPay}");
         }
     }
 
