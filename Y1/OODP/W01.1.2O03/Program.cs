@@ -19,8 +19,6 @@ if (Console.ReadLine().ToUpper() == "D") {
     points++;
 }
 
-double d = 1.23;
-
 Console.WriteLine("\nConsider the following line:\ndouble d = 1.23;\nWhat are TWO ways to convert variable d to an int?");
 Console.WriteLine("A: int i = (int)d;");
 Console.WriteLine("B: int i = int(d)");
