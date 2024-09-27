@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "W03.2.2O03": {
+      "commandName": "Project",
+      "commandLineArgs": "-f FunctPrintResults"
+    }
+  }
+}
