@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "W04.1.2O03": {
+      "commandName": "Project",
+      "commandLineArgs": "-f Hospital"
+    }
+  }
+}
