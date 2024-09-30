@@ -29,6 +29,7 @@
         foreach (Doctor Doctor in ToRemove.Supervisees) {
             Doctor.SupervisorId = Doctor.DefaultSupervisorId;
         }
+
         // Remove doctor
         Doctors.Remove(ToRemove);
         Console.WriteLine($"Doctor {DoctorID} has been removed");
