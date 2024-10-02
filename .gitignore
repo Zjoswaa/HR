@@ -5,6 +5,7 @@ Y1/BaseCamp/venv/
 # OODP
 Y1/OODP/.vs/
 Y1/Project-B/
+Y1/Project-Alpha/
 *bin/
 *obj/
 .git/
