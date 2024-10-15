@@ -3,14 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>W01._1._1T02</RootNamespace>
+    <RootNamespace>W05._1._1T07</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Platforms>x64</Platforms>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\W01.1.1T04\W01.1.1T04.csproj" />
-  </ItemGroup>
 
 </Project>

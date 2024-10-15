@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "W05.2.2O01": {
+      "commandName": "Project",
+      "commandLineArgs": "-f Functionality"
+    }
+  }
+}

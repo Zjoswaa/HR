@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "W05.2.2O02": {
+      "commandName": "Project",
+      "commandLineArgs": "-f Ninja"
+    }
+  }
+}
