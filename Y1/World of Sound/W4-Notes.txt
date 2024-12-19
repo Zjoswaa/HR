@@ -1,0 +1,38 @@
+Today: Transients
+
+A transient is basically a peak, when you see a wave and there is a peak, that is called a transient. Sounds that have a fast attack have a transient at the start, for example drums and also voices have big transients like this.
+
+When you clap, there is a short attack which causes a big transient. The loudness of this peak is very big, you cannot make a similar sound with your voice because it would be too loud. We dont experience a clap as that loud because it is a very short sound. A super short loud sound does not sound loud to our ears, you can make it sound "louder" not by increasing volume but by making the sound longer, not seconds, it is about milliseconds for sounds like this.
+
+When you turn up the volume a lot, you will "enter the red" on the volume meter, this means that you are overloading the system and basically turning every wave into square waves, this is unintentional distortion. So turning up volume is not always the solution to increase loudness.
+To combat this, you can use a compressor, this will reduce the height of the transient peaks by lowering the volume of the loudest sounds, this will give you room to increase volume without causing the distortion.
+
+When recording a drum, you can use a pencil microphone, this is a smaller microphone which picks up sound more similar to the way our ears pick up sound. Using a normal microphone is also okay and can also be intentional if you want to boost the sound.
+
+When you insert your own drum recording in a track, you can add an equalizer to boost certain frequencies, and then add an opposite equalizer to the other drum track to mask it a bit.
+You can also add a compressor:
+ - Ratio: how much the volume of the peaks is reduced. 2-3 to 1 is good ususally.
+ - Thresh (RIOTT): Threshold, the limit from what loudness the compressor will activate.
+ - Attack and Release: The attack and release of the effect.
+
+Dry / Wet: How much an effect is activated, more plugins have this, if 50% that means that you keep 50% of the original sound and 50% of the edited sound. 
+
+You can create a MIDI track from an audio track and it will automatically detect the notes and allow you to play other notes of the same sound. You can then also layer this sound over the original to.
+
+When you compress too much, you have basically no transients and "a big sausage" on the volume spectrum, this usually causes the sound to be too loud and too busy which can make it sound very dynamic but also very busy, it is not always a good thing.
+This can also cause something called ear fatigue, when something is loud all the time it loses its effect, something is especially loud when it was less loud before.
+Transients are prime examples of this switch from silent to loud.
+
+"Taming the transients" is an important skill, use many compressors for specific tracks, not one compressor for everything together.
+
+
+TIPS & TRICKS:
+
+When mixing a multitrack, you can drag the .wav or .mp3 files into the arrangement view, this will combine them all into one track but if you hold Ctrl then it will put every file into a seperate track, this is good.
+
+Ableton will automatically try to change the tracks a bit to match the BPM based on the transients of the track, this is called warping. But you dont always want that and it can fail. To turn this off: Settings > Record, Warp & Launch > Auto-Warp Long Samples > Off.
+Then you can change the BMP of the track in the top left of the interface, default in Ableton is 120.
+
+Cambridge-mt website has many free multitrack samples you can use:
+https://cambridge-mt.com/ms/mtk/
+

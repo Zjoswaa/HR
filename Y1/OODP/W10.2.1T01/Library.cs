@@ -21,7 +21,12 @@
         return null;
     }
 
-    public static T FindByID<T>(int ID) {
-        
+    public static T FindByID<T>(List<T> List, int ID) where T : IHasID {
+        foreach (T Item in List) {
+            if (Item.ID == ID) {
+                return Item;
+            }
+        }
+        return default;
     }
 }

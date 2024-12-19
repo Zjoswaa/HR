@@ -1,0 +1,6 @@
+For this assignment I decided to read a small story from a game I play.
+It consists of two voices so I created two separate audio tracks in which I made seperate edits.
+
+I added a gate to both of the tracks, this was to reduce some noise a little bit. Then I added a EQ Eight to both tracks, on one track I amplified the lower frequencies and on the other I amplified the higher frequencies. I also added a compressor to both tracks to level the volume a little.
+
+Finally I added some echo to the tracks, I added some more echo to the higher voice.

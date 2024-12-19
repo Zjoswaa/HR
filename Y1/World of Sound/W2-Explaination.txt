@@ -1,0 +1,16 @@
+I wanted to create a kick bass effect for this assignment because I think this sounds cool.
+
+I first created a new MIDI track, and added an Operator to it. I called this track the Kick.
+For oscillator A, I started with the basic sine wave, in the envelope I increased the release a bit and decreased the decay a bit.
+Then I added a low-pass filter and put it at 11.2 kHz and changed the resonance to 40%, this made the sound a bit deeper and more echo'y in my opinion. I also enabled the low-frequency-oscillator to give the sound a bit of a "woosh" when it is held for a longer time.
+After that, I enabled the pitch envelope and changed the peak pitch to very high and lowered the initial pitch, but with a very fast attack and a fast decay, this amplifies the "impact" sound.
+Finally, I enabled oscillator B, put it at a fixed frequency and decreased the decay to 17.6 ms. This sounds a bit like the impact of the hammer against the kick drum.
+
+Then I created a beat that was inspired by the song "Rollin' in the Rearview" by Yigit de Armas from the movie Cars because I like the beat in that song.
+
+I thought a hi-hat sound would sound good with this, so I created a new MIDI track, added an Operator to it and called this track the Hi-Hat.
+For this, I enabled oscillator A, B, C and D. Changed the Loop to Trigger and changed the algorithm so that B, C and D frequency modulate A. Then I changed every oscillator to a square wave and put the frequency to fixed. The envelopes for B, C and D stayed at default. I put the sustain for A to -inf.
+I added a high-pass filter at 3.62 kHz with a resonance of 20% and I enabled the LFO with a Saw-Up wave, disabled the retrigger and synced the rate to the BPM. I put the amount at 50%.
+Then I turned the frequency and level knobs until it sounded like a hi-hat.
+
+I combined both the kick and the hi-hat into the beat, I am quite happy with the result :D

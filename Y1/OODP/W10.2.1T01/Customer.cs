@@ -1,4 +1,4 @@
-﻿public class Customer {
+﻿public class Customer : IHasID {
     public int ID { get; set; }
     private static int _number;
     public string Name { get; set; }
