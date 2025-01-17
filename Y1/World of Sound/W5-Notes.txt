@@ -1,0 +1,21 @@
+Today: Harmonics
+
+Adding other sound waves with a certain multiple of frequency as another wave creates a harmonic, this represents other octaves of the same note.
+
+This is important when creating a digital version of for example a piano, which has multiple overtones.
+
+piano good, always fits. If it plays the same notes as another instrument, it adds nice harmonics.
+
+Very boring, add more plugins :D
+ - Saturator, it fills the gap between the fundamental en harmonic notes, MORE SAUSAGE-LIKE, similar effect to compressor. To bake sound, use it on (almost) everything, not too much and ususally only at the end of your project.
+ - Vinyl Distortion, dinggggg
+ - Overdrive, kkkccchhhhhh
+ - Pedal, kkkchhhhh v2
+ - (Flanger) waaaoowwwaeeooo, it adds ripple, tame impala effect
+ - (Phaser)
+
+When mixing, constantly think about the sound you cant to achieve.
+
+You don't want multiple instruments to play the same note, you get sounds on the same harmonic continent, very nasty.
+
+Ableton: Ctrl + G = Group plugins together

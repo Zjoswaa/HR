@@ -1,0 +1,10 @@
+This track consists of a saxophone and a acoustic guitar, both recorded from 3 different places and added together.
+
+First I wanted to add a compressor to the acoustic guitar because I like the lower notes it plays, I wanted that to be more pronounced.
+I also added an equalizer and saturator to all the guitar tracks to make the lower notes a bit stronger and blend it all together a bit more.
+
+After that, I added a compressor to the saxophone tracks and lowered the output, this is so the guitar has more room. I also added a saturator to all of the saxophone tracks.
+
+To finish, I added a phaser-flanger to the guitar tracks, the main guitar track got a phaser and the other two got a flanger. I just like the effect of the phaser and flanger so I really wanted to add that.
+
+I like how the resulting track sounds, really funky.

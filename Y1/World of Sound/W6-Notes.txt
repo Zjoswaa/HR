@@ -1,0 +1,28 @@
+Today: Spaces
+
+You can emulate the direction a sound is coming from by changing the timing on the left and right side, you trick your brain into thinking it came from another direction.
+
+Stereo - Mono, a sound can sound good in stereo but then bad when you change it to mono.
+
+Utility: Change a sound from stereo to mono.
+Reverb: Creates depth, echo-like sound, it emulates being in a room. It moves a sound further away, a danger with this is that a sound may dissapear because it is to far away.
+
+Send tracks to the reverb return track by sliding the A knob.
+
+How to create direction in sound:
+ - Volume, usually not a good way, it makes mono sound more quiet. (Subtle Stereo)
+ - Frequency, using an equalizer, seperate left and right and make them the opposite of eachother. Weakest effect, works when changing to mono. (EQ Eight)
+ - Time, one side plays a bit later than the other, 25ms delay is the max that still sounds okay. Works great on vocals and bass and works when changing to mono. (Filter Delay)
+
+When recording a sound and the microphones have a slight delay because one is further away, it can sound quieter in mono because some frequencies will cancel eachother out.
+
+Phase-issues occur when using multiple microphones.
+High frequencies are less phase-issue prone than low frequencies because samples happen faster and more often.
+
+
+Plugins
+Utility to test if it sounds good in mono
+Reverb to create more space
+Subtle Stereo
+Filter Delay (without filter) to use more time difference. Simons favorite! 1 ms + 25 ms is the sweet spot for a stereo effect
+EQ Eight to recreate the HEAD effect 🔥

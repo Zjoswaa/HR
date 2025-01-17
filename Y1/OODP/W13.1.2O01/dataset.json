@@ -1,0 +1,201 @@
+﻿[
+  {
+    "date": "-300",
+    "description": "Pilgrims travel to the healing temples of Asclepieion to be cured of their ills. After a ritual purification the followers bring offerings or sacrifices.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Greece",
+    "granularity": "year"
+  },
+  {
+    "date": "-300",
+    "description": "The central texts of Jainism, the Jain scriptures, are recorded (approximate date).{{Citation needed|date=March 2009}}",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "India",
+    "granularity": "year"
+  },
+  {
+    "date": "-300",
+    "description": "In Pella (in Macedonia), the artist Gnosis makes a mosaic floor decoration called ''Stag Hunt'' and even signs it with ampquotGnosis made itampquot. It is today preserved at the Archaeological museum in Pella.",
+    "lang": "en",
+    "category1": "By topic",
+    "category2": "Art",
+    "granularity": "year"
+  },
+  {
+    "date": "-76",
+    "description": "Salome Alexandra becomes queen of Judea, after the death of her husband, Alexander Jannaeus, until 67 BC.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Judea",
+    "granularity": "year"
+  },
+  {
+    "date": "-76",
+    "description": "Hyrcanus II becomes high priest of Jerusalem for first time, on the death of his father, Alexander Jannaeus, until 66 BC.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Judea",
+    "granularity": "year"
+  },
+  {
+    "date": "-62/01/05",
+    "description": "King Antiochus I Theos of Commagene builds his mountain-top tomb-sanctuary at Mount Nemrut.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Commagene",
+    "granularity": "year"
+  },
+  {
+    "date": "-61/09/29",
+    "description": " Pompey, the Great celebrates his third triumph for victories over the pirates and the end of the Mithridatic Wars.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Roman Republic",
+    "granularity": "year"
+  },
+  {
+    "date": "-61/09/29",
+    "description": "Marcus Pupius Piso Frugi as consul attempts to gain ratification of Pompey's Eastern Settlement.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Roman Republic",
+    "granularity": "year"
+  },
+  {
+    "date": "-49",
+    "description": "The Great Roman Civil War commences",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Roman Republic",
+    "granularity": "year"
+  },
+  {
+    "date": "-49",
+    "description": "January 1 ampampndash The Roman Senate receives a proposal from Julius Caesar that he and Pompey should lay down their commands simultaneously. The Senate responds that Caesar must immediately surrender his command.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Roman Republic",
+    "granularity": "year"
+  },
+  {
+    "date": "-49",
+    "description": "January 10 ampampndash Julius Caesar leads his army across the Rubicon, which separates his jurisdiction (Cisalpine Gaul) from that of the Senate (Italy), and thus initiates a civil war. In response, the Roman senate invokes the  ''senatus consultum ultimum''.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Roman Republic",
+    "granularity": "year"
+  },
+  {
+    "date": "4",
+    "description": "Emperor Ping of Han marries Empress Wang (Ping), daughter of Wang Mang, cementing his influence.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "China",
+    "granularity": "year"
+  },
+  {
+    "date": "4",
+    "description": "Wang Mang is given the title ampquotSuperior Dukeampquotampref name=wak1ampKlingaman, William K., ''The First Century: Emperors, Gods and Everyman'', 1990, p 64ampamp",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "China",
+    "granularity": "year"
+  },
+  {
+    "date": "41/01/25",
+    "description": "The death of Caligula saves the Jewish people from being punished for resisting orders to worship his statue in the Temple of Jerusalem.",
+    "lang": "en",
+    "category1": "By topic",
+    "category2": "Religion",
+    "granularity": "year"
+  },
+  {
+    "date": "42",
+    "description": "Consuls are Emperor Claudius and Gaius Caecina Largus.",
+    "lang": "en",
+    "category1": "By places",
+    "category2": "Roman Empire",
+    "granularity": "year"
+  },
+  {
+    "date": "42",
+    "description": "Romans take control of Ceuta, a port city on the North African side of the Strait of Gibraltar.",
+    "lang": "en",
+    "category1": "By places",
+    "category2": "Roman Empire",
+    "granularity": "year"
+  },
+  {
+    "date": "59",
+    "description": "Publius Clodius Thrasea Paetus retires from the Roman Senate.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Roman Empire",
+    "granularity": "year"
+  },
+  {
+    "date": "132",
+    "description": "Change of era name from ''Yongjian'' (7th year) to ''Yangjia'' of the Chinese Han Dynasty.",
+    "lang": "en",
+    "category1": "By place",
+    "category2": "Asia",
+    "granularity": "year"
+  },
+  {
+    "date": "1096",
+    "description": "The first documented teaching at the University of Oxford occurs.",
+    "lang": "en",
+    "granularity": "year"
+  },
+  {
+    "date": "1490/01/04",
+    "description": " Anne of Brittany announces that all those who would ally with the king of France will be considered as guilty of the crime of lese-majesty.",
+    "lang": "en",
+    "category1": "January&amp;amp;amp;ndash;December",
+    "granularity": "year"
+  },
+  {
+    "date": "1490/03/13",
+    "description": " Charles II becomes Duke of Savoy at age 1 his mother Blanche of Montferrato is regent.",
+    "lang": "en",
+    "category1": "January&amp;amp;amp;ndash;December",
+    "granularity": "year"
+  },
+  {
+    "date": "1868/02/24",
+    "description": " The first parade to have floats occurs at Mardi Gras in New Orleans, Louisiana.",
+    "lang": "en",
+    "category1": "January&amp;amp;amp;ndash;March",
+    "granularity": "year"
+  },
+  {
+    "date": "1942/08/08",
+    "description": "Quit India resolution is passed by the Bombay session of the All India Congress Committee (AICC), which led to the start of a historical civil disobedience movement across India.",
+    "lang": "en",
+    "category1": "August",
+    "granularity": "year"
+  },
+  {
+    "date": "1983/11/26",
+    "description": " Brink's-MAT robbery: In London, 6,800 gold bars worth nearly UK\u00a326 million are taken from the Brink's-MAT vault at Heathrow Airport. Only a fraction of the gold is ever recovered, and only 2 men are convicted of the crime.",
+    "lang": "en",
+    "category1": "November",
+    "granularity": "year"
+  },
+  {
+    "date": "1983/11/27",
+    "description": " Colombian Avianca Flight 11 crashes near Barajas Airport in Madrid, Spain, killing 181 of the 192 on board.",
+    "lang": "en",
+    "category1": "November",
+    "granularity": "year"
+  },
+  {
+    "date": "1983/12/04",
+    "description": " Lt's. Mark Lange and Bobby Goodman of the United States Navy are shot down over Lebanon and captured by the Syrians. Lt Lange died of his injuries.",
+    "lang": "en",
+    "category1": "December",
+    "granularity": "year"
+  }
+]

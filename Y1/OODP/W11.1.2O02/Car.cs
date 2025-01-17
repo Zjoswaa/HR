@@ -6,19 +6,19 @@
     public Car(string make, string model, string tireBrand) {
         Make = make;
         Model = model;
-        for (int i = 0; i < 4; i++) {
-            Tires.Append(new Tire(tireBrand));
-        }
+        Tires = [new Tire(tireBrand), new Tire(tireBrand), new Tire(tireBrand), new Tire(tireBrand)];
     }
 
     public bool TryDrive() {
-        foreach (Tire tire in Tires) {
-            if (tire.Durability < 1) {
+        for (int i = 0; i < Tires.Length; i++) {
+            if (Tires[i].Durability < 1) {
                 return false;
             }
         }
-        foreach (Tire tire in Tires) {
-            tire.Use();
+
+        for (int i = 0; i < Tires.Length; i++) {
+            
+            Tires[i].Use();
         }
         return true;
     }
@@ -32,7 +32,7 @@
     }
 
     public string GetTireInfo() {
-        return $"Tire 1: {Tires[0]}\nTire 2: {Tires[1]}\nTire 3: {Tires[2]}\nTire 4: {Tires[3]}";
+        return $"Tire 1: {Tires[0]}\nTire 2: {Tires[1]}\nTire 3: {Tires[2]}\nTire 4: {Tires[3]}\n";
     }
 
     public bool Equals(Car? other) {
