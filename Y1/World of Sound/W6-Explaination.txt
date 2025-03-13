@@ -1,0 +1,11 @@
+For this assignment I took my project from last week and added some effect to it to create space.
+
+First, I added the Utility plugin and enabled the mono filter on it so while editing, I hear the mono output and not stereo.
+
+I also added the reverb plugin and set it to a low-cut input filter, I also increased the decay sligtly and increased the "wetness (?)" of the reverb to 60% from 55%.
+
+After that, I added a some delay to the saxophone, this sounded fun. I then also added a delay to the acoustic guitar and I liked how that sounded so I kept it in.
+
+My version of Ableton does not have the EQ Eight and Subtle Stereo plugin so I sadly could not add these.
+
+I liked how the result sounded, it really adds to the flanger effect that I added last week.

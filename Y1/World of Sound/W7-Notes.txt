@@ -1,0 +1,15 @@
+This week: Creativity
+
+Mr DJ says: "experiment a lot."
+
+Change the direction of tracks, add eq's and saturators, basically fuck around and find out.
+
+The issue with digital is that there are few limitations, so you can go overboard.
+Its good to use the "mixing desk" approach, so use the Send A & Send B knobs and put plugins on the sent track.
+
+What if you don't take this approach and embrace the modern way:
+ - Nodes: Connect nodes using vertices and get a good visual representation of your tracks. Is this the future of mixing? Mr DJ finds it too complicated and less clear.
+
+Experimenting is fun but at some point, you need a plan on where to start, else you get a mess because of the few limitations you have.
+
+Sampling: Taking a (multi)track and adding on it, you can create sounds that you were not able to create before using sampling.

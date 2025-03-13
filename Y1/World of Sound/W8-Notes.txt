@@ -1,0 +1,32 @@
+Today: Compression
+
+Sample rate:
+ - MP3: 44.1 kHz (mens kan tot +- 22 kHz goed horen, dus dit is perfecte frequentie voor stereo)
+ - hoe vaak per seconde een computer een waarde checkt (een sample neemt) van bijvoorbeeld een sine wave.
+ - Films: 48 kHz
+ - Hoger kan ook maar is niet heel praktisch
+
+Bit depth:
+ - Hoeveel bits elke sample heeft, de accuraatheid van het kommagetal dat de toon weergeeft in de sample.
+ - 8-bit klinkt als oude video games.
+ - Bit reduction maakt square waves van sine waves
+ - CD: 16-bit
+
+Dither:
+ - Wanneer je de bitrate omlaag doet, rond je een getal eigenlijk af, dithering voegt een random waarde toe aan de sample.
+
+Format:
+ - WAV: uncompressed
+ - MP3: compressed
+
+Bitrate:
+ - 16 64 128 192 256 kbps
+
+Dynamic Range:
+ - Van veel transients naar weinig transients.
+ - Dynamic range verlagen: meer compressors gebruiken
+ - Dubstep is gebaseerd op zo weinig mogelijk dynamic range.
+
+Mastering:
+ - Wat je na het mixen doet.
+ - Erg technisch en erg lastig.
