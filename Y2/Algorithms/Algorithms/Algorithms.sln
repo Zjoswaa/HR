@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4.1_HashTable", "W4.1_Hash
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3.4_Queue", "W3.4_Queue\W3.4_Queue.csproj", "{9BF6EDD0-1FFF-4158-BF59-5D4DE3B0F038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W5.1_BST", "W5.1_BST\W5.1_BST.csproj", "{77F2F6F6-B566-4B0F-9956-3A21B37FF73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q4_Stack_List", "Q4_Stack_List\Q4_Stack_List.csproj", "{8AA6FD23-9F93-41F7-B08D-98D8779FD358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +70,13 @@ Global
 		{9BF6EDD0-1FFF-4158-BF59-5D4DE3B0F038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF6EDD0-1FFF-4158-BF59-5D4DE3B0F038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF6EDD0-1FFF-4158-BF59-5D4DE3B0F038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F2F6F6-B566-4B0F-9956-3A21B37FF73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F2F6F6-B566-4B0F-9956-3A21B37FF73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F2F6F6-B566-4B0F-9956-3A21B37FF73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F2F6F6-B566-4B0F-9956-3A21B37FF73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA6FD23-9F93-41F7-B08D-98D8779FD358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA6FD23-9F93-41F7-B08D-98D8779FD358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA6FD23-9F93-41F7-B08D-98D8779FD358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA6FD23-9F93-41F7-B08D-98D8779FD358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
