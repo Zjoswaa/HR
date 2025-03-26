@@ -1,26 +1,25 @@
 ﻿namespace Solution;
 
 public class StackLL<T> {
-    public Node<T>? Top;
+    public Node<T>? Top = null;
 
     public int Count => computeCount(Top);
 
-    //Count : to keep track of number of elements in the stack
     public void Push(T val) {
-        //ToDo 4.1 : to push the values on top of stack 
-        throw new NotImplementedException();
+        Top = new Node<T>(val, Top);
     }
 
     public T? Pop() {
-        //ToDo 4.2: To remove value from the top of a non-empty stack, 
-        //default in the case of empty stack 
-        throw new NotImplementedException();
+        if (Top == null) {
+            return default;
+        }
+        T res = Top.Value;
+        Top = Top.Next;
+        return res;
     }
 
     public T? Peek() {
-        //ToDo 4.3: To return the value from the top of a non-empty stack, 
-        //default in the case of empty stack 
-        throw new NotImplementedException();
+        return Count == 0 ? default : Top.Value;
     }
 
     //---DO NOT REMOVE/CHANGE THIS METHOD:---
