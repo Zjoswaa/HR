@@ -4,7 +4,7 @@ public class Q1 {
     public static long Tribonacci(long n, long[] mem) {
         Utils.ShowCallStack(false);
         //ToDo 1: Tribonacci via Dynamic programming 
-        if (mem == null || mem.Length <= n) {
+        if (mem is null || mem.Length <= n) {
             mem = new long[n + 1];
             if (n >= 0) mem[0] = 0;
             if (n >= 1) mem[1] = 0;

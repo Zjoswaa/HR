@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q5_HashTable", "Q5_HashTabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q1_Tribonacci", "Q1_Tribonacci\Q1_Tribonacci.csproj", "{E5268BD6-22FD-4A8D-9B4D-F04803D69E10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W6.1_Graph", "W6.1_Graph\W6.1_Graph.csproj", "{24D80BEC-4429-4999-B11C-DC1F21180DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W7.1_Memoized_Fibonacci", "W7.1_Memoized_Fibonacci\W7.1_Memoized_Fibonacci.csproj", "{499D3D28-83C2-48E3-866C-FBAB6D201E3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +94,13 @@ Global
 		{E5268BD6-22FD-4A8D-9B4D-F04803D69E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5268BD6-22FD-4A8D-9B4D-F04803D69E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5268BD6-22FD-4A8D-9B4D-F04803D69E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D80BEC-4429-4999-B11C-DC1F21180DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D80BEC-4429-4999-B11C-DC1F21180DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D80BEC-4429-4999-B11C-DC1F21180DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D80BEC-4429-4999-B11C-DC1F21180DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499D3D28-83C2-48E3-866C-FBAB6D201E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499D3D28-83C2-48E3-866C-FBAB6D201E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499D3D28-83C2-48E3-866C-FBAB6D201E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499D3D28-83C2-48E3-866C-FBAB6D201E3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
