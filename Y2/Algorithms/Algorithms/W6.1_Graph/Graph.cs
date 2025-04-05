@@ -50,7 +50,7 @@ public class Graph {
     //Depth First Traveral
     public string DFT(int root) {
         string res = "";
-        
+
         // create empty stack and push the root into it
         Stack<int> stack = new Stack<int>();
         stack.Push(root);

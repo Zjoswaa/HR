@@ -73,7 +73,7 @@ public class BST<T> : IBST<T> where T : IComparable<T> {
 
     private string PreOrderTraversal(TreeNode<T>? currNode) {
         if (currNode == null)
-         return "";
+            return "";
 
         string s = currNode.Value.ToString() + " ";
         s += PreOrderTraversal(currNode.Left);
@@ -117,7 +117,7 @@ public class BST<T> : IBST<T> where T : IComparable<T> {
     }
 
     private TreeNode<T>? Search(TreeNode<T>? node, T value) {
-        if (node is null) { 
+        if (node is null) {
             return null;
         }
 
@@ -140,77 +140,69 @@ public class BST<T> : IBST<T> where T : IComparable<T> {
     public bool Remove(T value) {
         return DeleteValue(value);
     }
-    
-    public bool DeleteValue(T value) { 
-        //throw new NotImplementedException();
-        if(Root == null) return false;
+
+    public bool DeleteValue(T value) {
+        if (Root == null) return false;
         TreeNode<T> node = Search(Root, value);
-        if(node == null) return false;
+        if (node == null) return false;
         // special case if the value to delete is in the root (and the root has 0 children or 1 child)
-      
-            // there are no children:
-         if(node.Left == null && node.Right == null) {
-            if(node.Value.CompareTo(Root.Value)==0){ //node == Root
+
+        // there are no children:
+        if (node.Left == null && node.Right == null) {
+            if (node.Value.CompareTo(Root.Value) == 0) { //node == Root
                 Root = null;
                 return true;
             }
-  
-            if(IsLeft(node, node.Parent)) {
+
+            if (IsLeft(node, node.Parent)) {
                 node.Parent.Left = null;
             }
             else {
                 node.Parent.Right = null;
             }
-            
+
             return true;
-         }
- 
-            // there is only left child, the right does not exist
-            // there is only right child, the left does not exist
-        
-        else if(node.Left == null && node.Right != null || node.Left != null && node.Right == null) {
-   
-            if(node.Value.CompareTo(Root.Value) == 0){ //node == Root
-                if(node.Left!=null){
+        }
+
+        // there is only left child, the right does not exist
+        // there is only right child, the left does not exist
+
+        if (node.Left == null && node.Right != null || node.Left != null && node.Right == null) {
+            if (node.Value.CompareTo(Root.Value) == 0) { //node == Root
+                if (node.Left != null) {
                     node.Left.Parent = null;
                     Root = node.Left;
                 }
-                else{ //node.Right != null
+                else { //node.Right != null
                     node.Right.Parent = null;
                     Root = node.Right;
                 }
                 return true;
             }
 
-            else{
-                if(node.Left!=null){
-                    if(IsLeft(node, node.Parent)){
-                        node.Parent.Left = node.Left;
-                        node.Left.Parent = node.Parent;
-                    }
-                    else{
-                        node.Parent.Right = node.Left;
-                        node.Left.Parent = node.Parent;
-                    }
-                    return true;    
+            if (node.Left != null) {
+                if (IsLeft(node, node.Parent)) {
+                    node.Parent.Left = node.Left;
+                    node.Left.Parent = node.Parent;
                 }
-                else{ //node.Right != null
-                    if(IsLeft(node, node.Parent)){
-                        node.Parent.Left = node.Right;
-                        node.Right.Parent = node.Parent;
-                    }
-                    else{
-                        node.Parent.Right = node.Right;
-                        node.Right.Parent = node.Parent;
-                    }
-                    return true;  
-                   
+                else {
+                    node.Parent.Right = node.Left;
+                    node.Left.Parent = node.Parent;
                 }
-
+                return true;
+            } 
+            //node.Right != null
+            if (IsLeft(node, node.Parent)) {
+                node.Parent.Left = node.Right;
+                node.Right.Parent = node.Parent;
             }
-
+            else {
+                node.Parent.Right = node.Right;
+                node.Right.Parent = node.Parent;
+            }
+            return true;
         }
-     
+
         // all other cases (node with Left AND Right children).
 
         // actually perform the deletion:
@@ -219,51 +211,48 @@ public class BST<T> : IBST<T> where T : IComparable<T> {
         // remove the InOrderSuccessor or InOrderPredecessor node. 
         // (in case we use a single recursive call the assignment before should happen after the recursive call)
 
-        else{
-            
-            //First Option
-            //Find successor node:
-    
-            // var successor = findInOrderSucc(node);
-            // var successor_value = successor.Value;
-            // DeleteValue(successor_value); //One recursive call 
-            // node.Value = successor_value; //assignment after the recursive call
+        //First Option
+        //Find successor node:
 
-            // //Deletion steps instead of recursive call 
-            // //Left and Right One step: (successor.Left == null -> true)
-            // // if(isLeft(successor, successor.Parent)) {
-            // //     successor.Parent.Left = successor.Right;
-            // //     }
-            // // else { //successor is first node right 
-            // //     successor.Parent.Right = successor.Right;   
-            // // }
-            // // if(successor.Right != null)
-            // //     successor.Right.Parent = successor.Parent;
+        // var successor = findInOrderSucc(node);
+        // var successor_value = successor.Value;
+        // DeleteValue(successor_value); //One recursive call 
+        // node.Value = successor_value; //assignment after the recursive call
 
-            //Second Option
-            //Find predecessor node:
+        // //Deletion steps instead of recursive call 
+        // //Left and Right One step: (successor.Left == null -> true)
+        // // if(isLeft(successor, successor.Parent)) {
+        // //     successor.Parent.Left = successor.Right;
+        // //     }
+        // // else { //successor is first node right 
+        // //     successor.Parent.Right = successor.Right;   
+        // // }
+        // // if(successor.Right != null)
+        // //     successor.Right.Parent = successor.Parent;
 
-            var predecessor = FindInOrderPredecessor(node);
-            var predecessor_value = predecessor.Value;
-            
-            DeleteValue(predecessor_value); //One recursive call 
-            node.Value = predecessor_value; //assignment after the recursive call
-          
-            //Deletion steps instead of recursive call 
-            //Left and Right One step: (predecessor.Right == null -> true)
-    
-            // if(isLeft(predecessor, predecessor.Parent)) {
-            //     predecessor.Parent.Left = predecessor.Left;
-            // }
-            // else { // predecessor is first node left (predecessor.Right == null)
-            //     predecessor.Parent.Right =  predecessor.Left;   
-            // }
-            // if(predecessor.Left != null)
-            // predecessor.Left.Parent = predecessor.Parent;
-            
+        //Second Option
+        //Find predecessor node:
 
-            return true;
-        }
+        var predecessor = FindInOrderPredecessor(node);
+        var predecessor_value = predecessor.Value;
+
+        DeleteValue(predecessor_value); //One recursive call 
+        node.Value = predecessor_value; //assignment after the recursive call
+
+        //Deletion steps instead of recursive call 
+        //Left and Right One step: (predecessor.Right == null -> true)
+
+        // if(isLeft(predecessor, predecessor.Parent)) {
+        //     predecessor.Parent.Left = predecessor.Left;
+        // }
+        // else { // predecessor is first node left (predecessor.Right == null)
+        //     predecessor.Parent.Right =  predecessor.Left;   
+        // }
+        // if(predecessor.Left != null)
+        // predecessor.Left.Parent = predecessor.Parent;
+
+
+        return true;
     }
 
     private bool Remove(TreeNode<T>? node, T value) {
@@ -299,7 +288,7 @@ public class BST<T> : IBST<T> where T : IComparable<T> {
     }
 
     private bool DeleteValue(BST<T>? tree, T value) => throw new NotImplementedException();
-    
+
     private bool delete(TreeNode<T> nodeToDelete) {
         throw new NotImplementedException();
         // CASE 1 : LEAF
