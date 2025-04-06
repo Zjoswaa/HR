@@ -34,6 +34,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W7.1_Memoized_Fibonacci", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W7.2_Floyd-Warshall", "W7.2_Floyd-Warshall\W7.2_Floyd-Warshall.csproj", "{73A65F20-09B0-43DC-93A6-3404F41551F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q3_BST_Delete", "Q3_BST_Delete\Q3_BST_Delete.csproj", "{BB3FEA81-936F-4F11-86B6-DF43FCA1D8E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q6_JaggedArrays_Merge", "Q6_JaggedArrays_Merge\Q6_JaggedArrays_Merge.csproj", "{5C9389D2-42EB-481C-ABB7-09A2609EA293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +112,13 @@ Global
 		{73A65F20-09B0-43DC-93A6-3404F41551F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A65F20-09B0-43DC-93A6-3404F41551F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A65F20-09B0-43DC-93A6-3404F41551F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3FEA81-936F-4F11-86B6-DF43FCA1D8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3FEA81-936F-4F11-86B6-DF43FCA1D8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3FEA81-936F-4F11-86B6-DF43FCA1D8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3FEA81-936F-4F11-86B6-DF43FCA1D8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
