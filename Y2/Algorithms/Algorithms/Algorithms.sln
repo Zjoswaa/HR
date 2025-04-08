@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q3_BST_Delete", "Q3_BST_Del
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q6_JaggedArrays_Merge", "Q6_JaggedArrays_Merge\Q6_JaggedArrays_Merge.csproj", "{5C9389D2-42EB-481C-ABB7-09A2609EA293}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q2_Dijkstra", "Q2_Dijkstra\Q2_Dijkstra.csproj", "{1E9FD40D-79B3-4A08-A8F1-F3DF1E023E0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9389D2-42EB-481C-ABB7-09A2609EA293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9FD40D-79B3-4A08-A8F1-F3DF1E023E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9FD40D-79B3-4A08-A8F1-F3DF1E023E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9FD40D-79B3-4A08-A8F1-F3DF1E023E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9FD40D-79B3-4A08-A8F1-F3DF1E023E0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
