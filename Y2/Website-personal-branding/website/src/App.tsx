@@ -6,9 +6,10 @@ export default function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Desktop/>}/>
-                <Route path="/about-me" element={<Desktop/>}/>
-                <Route path="/projects" element={<Desktop/>}/>
+                <Route path="/readme" element={<Desktop/>}/>
+                <Route path="/about" element={<Desktop/>}/>
                 <Route path="/links" element={<Desktop/>}/>
+                <Route path="/projects" element={<Desktop/>}/>
             </Routes>
         </Router>
     );

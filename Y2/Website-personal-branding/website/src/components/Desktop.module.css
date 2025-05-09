@@ -1,7 +1,7 @@
 .mainContainer {
     margin: 0;
     padding: 0;
-    background-image: url("../assets/dokkaebi.jpg");
+    background-image: url("/dokkaebi.jpg");
     /*background: #333333;*/
     background-size: cover;
     background-position: center;
@@ -11,10 +11,10 @@
 }
 
 .directoryIconContainer {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(120px, 1fr));
     gap: 16px;
     padding: 16px;
     height: 100vh;

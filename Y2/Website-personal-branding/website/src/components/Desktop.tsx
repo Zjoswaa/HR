@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import DirectoryIcon from "./DirectoryIcon.tsx";
+import DesktopIcon from "./DesktopIcon.tsx";
 import styles from "./Desktop.module.css"
 
 export default function Desktop() {
@@ -12,11 +12,11 @@ export default function Desktop() {
     return (
         <div className={styles.mainContainer}>
             <div className={styles.directoryIconContainer}>
-                <DirectoryIcon title="Trash" iconPath="/trash-bin.svg" onClick={() => handleDirectoryClick("/")}/>
-                <DirectoryIcon title="Home" iconPath="/home-directory.svg" onClick={() => handleDirectoryClick("/")}/>
-                <DirectoryIcon title="About Me" iconPath="/about-directory.svg" onClick={() => handleDirectoryClick("/about-me")}/>
-                <DirectoryIcon title="Projects" iconPath="/development-directory.svg" onClick={() => handleDirectoryClick("/projects")}/>
-                <DirectoryIcon title="Links" iconPath="/links-directory.svg" onClick={() => handleDirectoryClick("/links")}/>
+                <DesktopIcon title="Home" iconPath="/home.svg" onClick={() => handleDirectoryClick("/")}/>
+                <DesktopIcon title="Readme.md" iconPath="/markdown-document.svg" onClick={() => handleDirectoryClick("/readme")}/>
+                <DesktopIcon title="About.md" iconPath="/markdown-document.svg" onClick={() => handleDirectoryClick("/about")}/>
+                <DesktopIcon title="Links.md" iconPath="markdown-document.svg" onClick={() => handleDirectoryClick("/links")}/>
+                <DesktopIcon title="Projects" iconPath="/directory.svg" onClick={() => handleDirectoryClick("/projects")}/>
             </div>
         </div>
     );
