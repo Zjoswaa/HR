@@ -7,11 +7,11 @@ interface props {
     onClick: (e: React.MouseEvent) => void;
 }
 
-export default function DesktopIcon(props: props) {
+export default function DesktopIcon({title, iconPath, onClick}: props) {
     return (
-        <div className={styles.container} onClick={props.onClick}>
-            <img className={styles.icon} src={props.iconPath} alt="Directory"/>
-            <p className={styles.title}>{props.title}</p>
+        <div className={styles.container} onClick={onClick}>
+            <img className={styles.icon} src={iconPath} alt="Desktop Icon"/>
+            <p className={styles.title}>{title}</p>
         </div>
     );
 }

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     background-image: url("/dokkaebi.jpg");
-    /*background: #333333;*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,6 +11,7 @@
 
 .directoryIconContainer {
     /*border: 1px solid red;*/
+    user-select: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(120px, 1fr));

@@ -1,14 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Desktop from "./components/Desktop.tsx";
+import ReadMe from "./components/ReadMe.tsx";
+import AboutMe from "./components/AboutMe.tsx"
+import Links from "./components/Links.tsx";
 
 export default function App() {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<Desktop/>}/>
-                <Route path="/readme" element={<Desktop/>}/>
-                <Route path="/about" element={<Desktop/>}/>
-                <Route path="/links" element={<Desktop/>}/>
+                <Route path="/readme" element={<ReadMe/>}/>
+                <Route path="/about-me" element={<AboutMe/>}/>
+                <Route path="/links" element={<Links/>}/>
                 <Route path="/projects" element={<Desktop/>}/>
             </Routes>
         </Router>
