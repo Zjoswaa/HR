@@ -1,15 +1,14 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-[PrimaryKey(nameof(Essn), nameof(Dependent_name))]
 public class Dependent {
-    [ForeignKey("Employee")]
-    public int Essn { get; set; }
-    public string Dependent_name { get; set; }
-    public char Sex { get; set; }
-    public DateTime Bdate { get; set; }
+    [Column(TypeName = "char(9)")]
+    public string EmployeeSSN { get; set; }
+    [Column(TypeName = "varchar(50)")]
+    public string DependentName { get; set; }
+    public Gender Gender { get; set; }
+    [Column(TypeName = "date")]
+    public DateTime BirthDate { get; set; }
     public string Relationship { get; set; }
-    
-    // Navigation Properties
     public Employee Employee { get; set; }
 }

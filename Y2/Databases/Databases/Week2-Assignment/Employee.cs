@@ -1,25 +1,29 @@
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+public enum Gender {
+    Male,
+    Female,
+    Other
+}
+
 public class Employee {
-    public string Fname { get; set; }
-    public char Minit { get; set; }
-    public string Lname { get; set; }
-    [Key]
-    public int Ssn { get; set; }
-    public DateTime Bdate { get; set; }
+    [Column(TypeName = "varchar(50)")]
+    public string FirstName { get; set; }
+    [Column(TypeName = "varchar(5)")]
+    public string MiddleInitials { get; set; }
+    [Column(TypeName = "varchar(50)")]
+    public string LastName { get; set; }
+    [Column(TypeName = "char(9)")]
+    public string SSN { get; set; }
+    [Column(TypeName = "date")]
+    public DateTime BirthDate { get; set; }
     public string Address { get; set; }
-    public char Sex { get; set; }
-    public int Salary { get; set; }
-    [ForeignKey("Employee")]
-    public int Super_ssn { get; set; }
-    [ForeignKey("Department")]
-    public int Dno { get; set; }
-    
-    // Navigation Properties
+    public Gender Gender { get; set; }
+    public double Salary { get; set; }
+    [Column(TypeName = "char(6)")]
+    public string DepartmentNumber { get; set; }
     public Department Department { get; set; }
-    public Employee Supervisor { get; set; }
-    public ICollection<Employee> Subordinates { get; set; }
-    public ICollection<Dependent> Dependents { get; set; }
-    public ICollection<WorksOn> WorksOn { get; set; }
+    public IEnumerable<Dependent> Dependents { get; set; }
+    public IEnumerable<Department> ManagedDepartments { get; set; }
+    public IEnumerable<WorksOn> Schedule { get; set; }
 }

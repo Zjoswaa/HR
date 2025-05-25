@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
 public class Context : DbContext {
-    public DbSet<Employee> Employees { get; set; }
-    public DbSet<Department> Departments { get; set; }
-    public DbSet<DeptLocations> DeptLocations { get; set; }
-    public DbSet<Project> Projects { get; set; }
+    public DbSet<Employee> Employee { get; set; }
+    public DbSet<Dependent> Dependent { get; set; }
+    public DbSet<Department> Department { get; set; }
+    public DbSet<DepartmentLocation> DepartmentLocation { get; set; }
+    public DbSet<Project> Project { get; set; }
     public DbSet<WorksOn> WorksOn { get; set; }
-    public DbSet<Dependent> Dependents { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         string dbName = "Week2-DB";
@@ -15,40 +15,57 @@ public class Context : DbContext {
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
-        // Employee -> Supervisor
         modelBuilder.Entity<Employee>()
-            .HasOne(e => e.Supervisor)
-            .WithMany(e => e.Subordinates)
-            .HasForeignKey(e => e.Super_ssn)
-            .OnDelete(DeleteBehavior.Restrict);
+            .HasKey(e => e.SSN);
 
-        // Employee -> Department
+        modelBuilder.Entity<Dependent>()
+            .HasKey(d => new { d.EmployeeSSN, d.DependentName });
+
+        modelBuilder.Entity<Department>()
+            .HasKey(d => d.Number);
+
+        modelBuilder.Entity<DepartmentLocation>()
+            .HasKey(l => new { l.DepartmentNumber, l.Location });
+
+        modelBuilder.Entity<Project>()
+            .HasKey(p => p.Number);
+
+        modelBuilder.Entity<WorksOn>()
+            .HasKey(wo => new { wo.EmployeeSSN, wo.ProjectNumber });
+
+        modelBuilder.Entity<Dependent>()
+            .HasOne(d => d.Employee)
+            .WithMany(e => e.Dependents)
+            .HasForeignKey(d => d.EmployeeSSN);
+
+        modelBuilder.Entity<Department>()
+            .HasOne(d => d.Manager)
+            .WithMany(e => e.ManagedDepartments)
+            .HasForeignKey(d => d.ManagerSSN);
+
+        modelBuilder.Entity<DepartmentLocation>()
+            .HasOne(l => l.Department)
+            .WithMany(d => d.Locations)
+            .HasForeignKey(l => l.DepartmentNumber);
+
+        modelBuilder.Entity<Project>()
+            .HasOne(p => p.Department)
+            .WithMany(d => d.Projects)
+            .HasForeignKey(p => p.DepartmentNumber);
+
+        modelBuilder.Entity<WorksOn>()
+            .HasOne(wo => wo.Employee)
+            .WithMany(e => e.Schedule)
+            .HasForeignKey(wo => wo.EmployeeSSN);
+
+        modelBuilder.Entity<WorksOn>()
+            .HasOne(wo => wo.Project)
+            .WithMany(e => e.Developers)
+            .HasForeignKey(wo => wo.ProjectNumber);
+
         modelBuilder.Entity<Employee>()
             .HasOne(e => e.Department)
             .WithMany(d => d.Employees)
-            .HasForeignKey(e => e.Dno);
-
-        // Department -> Manager
-        modelBuilder.Entity<Department>()
-            .HasOne(d => d.Manager)
-            .WithMany()
-            .HasForeignKey(d => d.Mgr_ssn);
-
-        // Department -> DeptLocation
-        modelBuilder.Entity<DeptLocations>()
-            .HasKey(dl => new { dl.Dno, dl.Dlocation });
-
-        modelBuilder.Entity<DeptLocations>()
-            .HasOne(dl => dl.Department)
-            .WithMany(d => d.Locations)
-            .HasForeignKey(dl => dl.Dno);
-
-        // WorksOn Composite Key
-        modelBuilder.Entity<WorksOn>()
-            .HasKey(wo => new { wo.Essn, wo.Pno });
-
-        // Dependent Composite Key
-        modelBuilder.Entity<Dependent>()
-            .HasKey(d => new { d.Essn, d.Dependent_name });
+            .HasForeignKey(e => e.DepartmentNumber);
     }
 }

@@ -1,13 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
 public class WorksOn {
-    [ForeignKey("Employee")]
-    public int Essn { get; set; }
-    [ForeignKey("Project")]
-    public int Pno { get; set; }
+    [Column(TypeName = "char(9)")] public string EmployeeSSN { get; set; }
+    [Column(TypeName = "char(6)")] public string ProjectNumber { get; set; }
     public int Hours { get; set; }
-    
-    // Navigation Properties
     public Employee Employee { get; set; }
     public Project Project { get; set; }
 }
