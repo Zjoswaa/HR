@@ -1,17 +1,16 @@
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 public class Department {
-    public string Dname { get; set; }
-    [Key]
-    public int Dnumber { get; set; }
-    [ForeignKey("Employee")]
-    public int Mgr_ssn { get; set; }
-    public DateTime Mgr_start_date { get; set; }
-    
-    // Navigation Properties
+    [Column(TypeName = "varchar(20)")]
+    public string Name { get; set; }
+    [Column(TypeName = "char(6)")]
+    public string Number { get; set; }
+    [Column(TypeName = "char(9)")]
+    public string ManagerSSN { get; set; }
+    [Column(TypeName = "date")]
+    public DateTime ManagerStartDate { get; set; }
     public Employee Manager { get; set; }
-    public ICollection<Employee> Employees { get; set; }
-    public ICollection<DeptLocations> Locations { get; set; }
-    public ICollection<Project> Projects { get; set; }
+    public IEnumerable<Employee> Employees { get; set; }
+    public IEnumerable<DepartmentLocation> Locations { get; set; }
+    public IEnumerable<Project> Projects { get; set; }
 }
