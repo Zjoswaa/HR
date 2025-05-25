@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1-Assignment", "Week1-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2-Assignment", "Week2-Assignment\Week2-Assignment.csproj", "{074E7BE8-E7F6-4130-BC27-0EBA4239CC09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3-Assignment", "Week3-Assignment\Week3-Assignment.csproj", "{CA436270-AD99-41EB-A827-15D3AF5F6FC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{074E7BE8-E7F6-4130-BC27-0EBA4239CC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{074E7BE8-E7F6-4130-BC27-0EBA4239CC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074E7BE8-E7F6-4130-BC27-0EBA4239CC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA436270-AD99-41EB-A827-15D3AF5F6FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA436270-AD99-41EB-A827-15D3AF5F6FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA436270-AD99-41EB-A827-15D3AF5F6FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA436270-AD99-41EB-A827-15D3AF5F6FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
