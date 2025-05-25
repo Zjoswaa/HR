@@ -1,5 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
+public class Program {
+    public static void Main(string[] args) {
+        
+    }
+}
+
 public class Context : DbContext {
     public DbSet<Employee> Employee { get; set; }
     public DbSet<Dependent> Dependent { get; set; }
