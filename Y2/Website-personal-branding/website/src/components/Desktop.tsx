@@ -18,6 +18,7 @@ export default function Desktop() {
                 <DesktopIcon title="README.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/readme")}/>
                 <DesktopIcon title="About Me.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/about-me")}/>
                 <DesktopIcon title="Links.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/links")}/>
+                <DesktopIcon title="Contact.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/contact")}/>
                 <DesktopIcon title="Projects" iconPath="/directory-code.svg" onClick={() => handleDirectoryClick("/projects")}/>
             </div>
         </div>
