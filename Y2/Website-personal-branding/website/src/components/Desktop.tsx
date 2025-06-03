@@ -6,7 +6,6 @@ import styles from "./Home.module.css"
 
 export default function Desktop() {
     const navigate = useNavigate();
-
     const handleDirectoryClick = (path: string) => {
         navigate(path);
     };

@@ -6,14 +6,15 @@ import styles from "./ReadMe.module.css"
 
 export default function ReadMe() {
     const navigate = useNavigate();
-
     const handleDirectoryClick = (path: string) => {
         navigate(path);
     };
+
     return (
         <div className={styles.mainContainer}>
             <MarkdownWindow title="README.md" onCloseClick={() => handleDirectoryClick("/")}>
                 <h1>Portfolio Website</h1>
+                <hr/>
                 <p>Welcome to my digital portfolio. This window provides information about navigating the site and its features.</p>
                 <p>This website was made as part of an elective course I followed at the Rotterdam University of Applied Sciences.</p>
                 <hr/>
