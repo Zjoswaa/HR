@@ -12,7 +12,7 @@ export default function Projects() {
 
     return (
         <div className={styles.mainContainer}>
-            <MarkdownWindow title="Projects.md" onCloseClick={() => handleDirectoryClick("/")}>z
+            <MarkdownWindow title="Projects.md" onCloseClick={() => handleDirectoryClick("/desktop")}>
                 <h1>Projects</h1>
                 <hr/>
                 <h2>HR</h2>
@@ -41,6 +41,9 @@ export default function Projects() {
                 <h3>Description</h3>
                 <p>This is a group project I worked on during my second year at the Rotterdam University of Applied Sciences.</p>
                 <p>It is a Python backend en React frontend for a RAG-based LLM chatbot for the NDW Docs, NDW is a Dutch government instantiation that provides information about the Dutch infrastructure.</p>
+                <h3>Showcase</h3>
+                <img className={styles.showcaseImage} id={styles.chadbotClear} src="/chadbot-clear.png" alt="An image of the ChadBot frontend"/>
+                <img className={styles.showcaseImage} id={styles.chadbotQuery} src="/chadbot-query.png" alt="An image of the ChadBot frontend, including a query and response."/>
                 <h3>Link</h3>
                 <a href="https://github.com/Zjoswaa/Project-D" target={"_blank"}>https://github.com/Zjoswaa/Project-D</a>
                 <hr/>

@@ -29,7 +29,7 @@ export default function AboutMe() {
 
     return (
         <div className={styles.mainContainer}>
-            <MarkdownWindow title="About Me.md" onCloseClick={() => handleDirectoryClick("/")}>
+            <MarkdownWindow title="About-Me.md" onCloseClick={() => handleDirectoryClick("/desktop")}>
                 <h1>About Me</h1>
                 <hr/>
                 <img className={styles.profilePicture} src="/me.jpg" alt="A picture of me"/>

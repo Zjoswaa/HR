@@ -12,7 +12,7 @@ export default function Links() {
 
     return (
         <div className={styles.mainContainer}>
-            <MarkdownWindow title="Links.md" onCloseClick={() => handleDirectoryClick("/")}>
+            <MarkdownWindow title="Links.md" onCloseClick={() => handleDirectoryClick("/desktop")}>
                 <h1>Links</h1>
                 <hr/>
                 <h2>GitHub</h2>
@@ -24,7 +24,7 @@ export default function Links() {
                 <a href="https://www.linkedin.com/in/joshua-van-der-jagt" target={"_blank"}>https://www.linkedin.com/in/joshua-van-der-jagt</a>
                 <hr/>
                 <h2>Instagram</h2>
-                <p>Personal posts</p>
+                <p>Here you can find my personal posts.</p>
                 <a href="https://www.instagram.com/zjoswaa" target={"_blank"}>https://www.instagram.com/zjoswaa</a>
                 <hr/>
             </MarkdownWindow>

@@ -16,5 +16,5 @@
     width: 7rem;
     border-radius: 50%;
     border: 2px solid rgba(43, 42, 51, 1);
-    box-shadow: 0 0 1rem mistyrose;
+    box-shadow: 0 0 0.5rem mistyrose;
 }
