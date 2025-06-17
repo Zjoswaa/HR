@@ -3,8 +3,8 @@
 public class Program {
     public static void Main(string[] args) {
         using (var db = new Context()) {
-            db.Employees.Add(new Employee() { FirstName = "Jane", MiddleInitials = "J.", LastName = "Doe", Gender = Gender.Female, SSN = "987654321", Salary = 24.14, Address = "Foo Lane 3, Barcity", BirthDate = new DateTime(2001, 7, 28), DepartmentNumber = "111111"});
-            Console.WriteLine($"{db.SaveChanges()} writes saved");
+            // db.Employees.Add(new Employee() { FirstName = "Jane", MiddleInitials = "J.", LastName = "Doe", Gender = Gender.Female, SSN = "987654321", Salary = 24.14, Address = "Foo Lane 3, Barcity", BirthDate = new DateTime(2001, 7, 28), DepartmentNumber = "111111"});
+            // Console.WriteLine($"{db.SaveChanges()} writes saved");
             List<Employee> employees = db.Employees.ToList();
             foreach (Employee employee in employees) {
                 Console.WriteLine($"{employee.FirstName} {employee.LastName} ({employee.SSN})");
