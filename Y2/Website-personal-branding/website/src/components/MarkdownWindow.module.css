@@ -8,8 +8,12 @@
 }
 
 hr {
-    margin: 12px 12px 8px 12px;
+    margin: 8px 12px 12px 12px;
     color: rgba(43, 42, 51, 1);
+    height: 2px;
+    background-color: rgba(43, 42, 51, 1);
+    border-radius: 1rem;
+    border: none;
 }
 
 .navigationBar {
@@ -58,19 +62,58 @@ hr {
     margin: 8px 0 0 0;
 }
 
-.windowContent > h1 {
+.windowContent h1 {
     /*border: 1px solid red;*/
     font-family: "Segoe UI", sans-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: beige;
+    color: rgba(117, 212, 125, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
     margin: 0 16px 0 16px;
 }
 
-.windowContent > p {
+.windowContent h2 {
+    /*border: 1px solid red;*/
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(110, 172, 228, 100);
+    text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
+    margin: 0 16px 0 16px;
+}
+
+.windowContent h3 {
+    /*border: 1px solid red;*/
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(209, 167, 233, 100);
+    text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
+    margin: 0 16px 0 16px;
+}
+
+.windowContent p {
     font-family: "Segoe UI", sans-serif;
     color: whitesmoke;
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
     margin: 0 16px 0 16px;
+}
+
+.windowContent ul {
+    font-family: "Segoe UI", sans-serif;
+    color: whitesmoke;
+    text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
+    margin: 0 16px 0 16px;
+}
+
+.windowContent > p > a {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.windowContent > a {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0 16px 0 16px;
+    text-decoration: underline;
+    color: cornflowerblue;
 }

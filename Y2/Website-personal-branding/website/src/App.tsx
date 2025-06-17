@@ -5,7 +5,7 @@ import ReadMe from "./components/ReadMe.tsx";
 import AboutMe from "./components/AboutMe.tsx"
 import Links from "./components/Links.tsx";
 import Contact from "./components/Contact.tsx"
-// Projects
+import Projects from "./components/Projects.tsx";
 
 export default function App() {
     return (
@@ -16,7 +16,7 @@ export default function App() {
                 <Route path="/about-me" element={<AboutMe/>}/>
                 <Route path="/links" element={<Links/>}/>
                 <Route path="/contact" element={<Contact/>}/>
-                <Route path="/projects" element={<Desktop/>}/>
+                <Route path="/projects" element={<Projects/>}/>
             </Routes>
         </Router>
     );

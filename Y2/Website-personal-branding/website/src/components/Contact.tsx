@@ -15,8 +15,15 @@ export default function Links() {
             <MarkdownWindow title="Contact.md" onCloseClick={() => handleDirectoryClick("/")}>
                 <h1>Contact</h1>
                 <hr/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet aut commodi consequatur, culpa delectus dolorem, doloribus dolorum fugit inventore maiores numquam quod quos rem saepe. Dicta earum repellendus unde?</p>
-                </MarkdownWindow>
+                <p>You can contact me in multiple ways, my most used contact points are the following:</p>
+                <br/>
+                <h2>Discord</h2>
+                <p>Username: <span>zjoswaa</span></p>
+                <hr/>
+                <h2>E-Mail</h2>
+                <p>Gmail: <span>joshuavdjagt@gmail.com</span></p>
+                <hr/>
+            </MarkdownWindow>
         </div>
     )
 }

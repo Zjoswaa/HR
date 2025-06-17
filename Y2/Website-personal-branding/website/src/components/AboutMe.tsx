@@ -38,6 +38,7 @@ export default function AboutMe() {
                 <br/>
                 <p>Friends and family describe me as calm, patient, helpful and caring, I love helping people when they have any problems. When I have helped someone solve an issue they have, that feels like a great accomplishment for me.</p>
                 <p>This is also why I have worked as a tutor for a company called After's Cool for a little over 3 years, this company provides on-location after-school tutoring for high school students in the Netherlands. I am also currently working as a student tutor at my own school, the Rotterdam University of Applied Sciences, where I serve as a point of contact for any problems students in the years below me might have, technical or non-technical problems alike.</p>
+                <hr/>
             </MarkdownWindow>
         </div>
     )

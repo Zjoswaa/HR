@@ -15,7 +15,18 @@ export default function Links() {
             <MarkdownWindow title="Links.md" onCloseClick={() => handleDirectoryClick("/")}>
                 <h1>Links</h1>
                 <hr/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet aut commodi consequatur, culpa delectus dolorem, doloribus dolorum fugit inventore maiores numquam quod quos rem saepe. Dicta earum repellendus unde?</p>
+                <h2>GitHub</h2>
+                <p>On my GitHub you can find my personal project and some of the projects I have worked on at school.</p>
+                <a href="https://github.com/Zjoswaa">https://github.com/Zjoswaa</a>
+                <hr/>
+                <h2>LinkedIn</h2>
+                <p>On my LinkedIn you can find my educational- and working history. You can also find some additional information about me like my skills, languages, recommendations I have received, etc.</p>
+                <a href="https://www.linkedin.com/in/joshua-van-der-jagt">https://www.linkedin.com/in/joshua-van-der-jagt</a>
+                <hr/>
+                <h2>Instagram</h2>
+                <p>Personal posts</p>
+                <a href="https://www.instagram.com/zjoswaa">https://www.instagram.com/zjoswaa</a>
+                <hr/>
             </MarkdownWindow>
         </div>
     )
