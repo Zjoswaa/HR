@@ -17,15 +17,15 @@ export default function Links() {
                 <hr/>
                 <h2>GitHub</h2>
                 <p>On my GitHub you can find my personal project and some of the projects I have worked on at school.</p>
-                <a href="https://github.com/Zjoswaa">https://github.com/Zjoswaa</a>
+                <a href="https://github.com/Zjoswaa" target={"_blank"}>https://github.com/Zjoswaa</a>
                 <hr/>
                 <h2>LinkedIn</h2>
                 <p>On my LinkedIn you can find my educational- and working history. You can also find some additional information about me like my skills, languages, recommendations I have received, etc.</p>
-                <a href="https://www.linkedin.com/in/joshua-van-der-jagt">https://www.linkedin.com/in/joshua-van-der-jagt</a>
+                <a href="https://www.linkedin.com/in/joshua-van-der-jagt" target={"_blank"}>https://www.linkedin.com/in/joshua-van-der-jagt</a>
                 <hr/>
                 <h2>Instagram</h2>
                 <p>Personal posts</p>
-                <a href="https://www.instagram.com/zjoswaa">https://www.instagram.com/zjoswaa</a>
+                <a href="https://www.instagram.com/zjoswaa" target={"_blank"}>https://www.instagram.com/zjoswaa</a>
                 <hr/>
             </MarkdownWindow>
         </div>
