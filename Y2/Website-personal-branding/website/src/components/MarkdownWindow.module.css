@@ -1,11 +1,10 @@
 .mainContainer {
     border: 2px solid rgb(108, 182, 255);
-    margin: 1rem;
-    border-radius: 1em;
+    margin: 12px;
+    border-radius: 0.5rem;
     background-color: rgba(28, 27, 34, 0.9);
     backdrop-filter: blur(1rem);
-    overflow: auto;
-    scrollbar-width: thin;
+    overflow: hidden;
 }
 
 hr {
@@ -53,6 +52,7 @@ hr {
 .rightItem {
     grid-column: 3;
     margin: 8px 8px 8px auto;
+    border-radius: 50%;
     width: 24px;
     height: 24px;
 }
@@ -63,13 +63,74 @@ hr {
 
 .windowContent {
     /*border: 1px solid red;*/
-    margin: 8px 0 0 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 180px auto;
+    grid-template-rows: 1fr;
+}
+
+.filesNavigationBar {
+    grid-column: 1;
+    border-right: 1px solid rgba(43, 42, 51, 1);
+    height: 100%;
+}
+
+.fileNavigator {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border-bottom: 1px solid rgba(43, 42, 51, 1);
+    border-left: 1px solid rgba(43, 42, 51, 1);
+    padding: 4px 4px 4px 4px;
+    transition: background-color 0.3s ease-out;
+}
+
+.fileNavigator > .fileNavigatorText {
+    font-family: monospace;
+    font-size: 16px;
+    color: mistyrose;
+    text-shadow: rgba(0, 0, 0, 0.8) 3px 3px 3px;
+}
+
+.filesNavigationBar .current {
+    background-color: rgb(47, 43, 58);
+}
+
+.fileNavigator:hover {
+    background-color: rgb(47, 43, 58);
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.fileNavigatorText {
+    /*border: 1px solid red;*/
+    text-align: left;
+    align-content: center;
+}
+
+.fileNavigatorIcon {
+    /*border: 1px solid red;*/
+    scale: 0.7;
+}
+
+#homeIcon {
+    /*border: 1px solid red;*/
+    scale: 0.65;
+    padding: 0 1px 0 0;
+}
+
+.childrenContainer {
+    grid-column: 2;
+    overflow-y: scroll;
+    max-height: 100%;
+    padding-bottom: 3rem;
+    /*margin: 8px 0 0 0;*/
+    /*border: 1px solid green;*/
 }
 
 .windowContent h1 {
     /*border: 1px solid red;*/
     font-family: "Segoe UI", sans-serif;
-    font-size: 2rem;
+    font-size: 36px;
     font-weight: 600;
     color: rgba(117, 212, 125, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
@@ -79,7 +140,7 @@ hr {
 .windowContent h2 {
     /*border: 1px solid red;*/
     font-family: "Segoe UI", sans-serif;
-    font-size: 1.5rem;
+    font-size: 30px;
     font-weight: 600;
     color: rgba(110, 172, 228, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
@@ -89,7 +150,7 @@ hr {
 .windowContent h3 {
     /*border: 1px solid red;*/
     font-family: "Segoe UI", sans-serif;
-    font-size: 1.25rem;
+    font-size: 24px;
     font-weight: 600;
     color: rgba(209, 167, 233, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
@@ -98,6 +159,7 @@ hr {
 
 .windowContent p {
     font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
     color: whitesmoke;
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
     margin: 0 16px 0 16px;
@@ -110,13 +172,9 @@ hr {
     margin: 0 16px 0 16px;
 }
 
-.windowContent > p > a {
-    text-decoration: underline;
-    color: cornflowerblue;
-}
-
-.windowContent > a {
+.windowContent a {
     font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
     margin: 0 16px 0 16px;
     text-decoration: underline;
     color: cornflowerblue;

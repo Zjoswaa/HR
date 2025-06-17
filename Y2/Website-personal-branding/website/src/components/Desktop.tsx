@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 import DesktopIcon from "./DesktopIcon.tsx";
 
-import styles from "./Home.module.css"
+import styles from "./Desktop.module.css"
 
 export default function Desktop() {
     const navigate = useNavigate();
@@ -14,11 +14,10 @@ export default function Desktop() {
         <div className={styles.mainContainer}>
             <div className={styles.directoryIconContainer}>
                 <DesktopIcon title="Home" iconPath="/home.svg" onClick={() => handleDirectoryClick("/")}/>
-                <DesktopIcon title="README.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/readme")}/>
-                <DesktopIcon title="About Me.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/about-me")}/>
+                <DesktopIcon title="About-Me.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/about-me")}/>
+                <DesktopIcon title="Projects.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/projects")}/>
                 <DesktopIcon title="Links.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/links")}/>
                 <DesktopIcon title="Contact.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/contact")}/>
-                <DesktopIcon title="Projects.md" iconPath="/document-markdown.svg" onClick={() => handleDirectoryClick("/projects")}/>
             </div>
         </div>
     );

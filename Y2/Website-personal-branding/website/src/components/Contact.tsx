@@ -12,7 +12,7 @@ export default function Links() {
 
     return (
         <div className={styles.mainContainer}>
-            <MarkdownWindow title="Contact.md" onCloseClick={() => handleDirectoryClick("/")}>
+            <MarkdownWindow title="Contact.md" onCloseClick={() => handleDirectoryClick("/desktop")}>
                 <h1>Contact</h1>
                 <hr/>
                 <p>You can contact me in multiple ways, my most used contact points are the following:</p>
