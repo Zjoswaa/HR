@@ -109,13 +109,7 @@ hr {
 
 .fileNavigatorIcon {
     /*border: 1px solid red;*/
-    scale: 0.7;
-}
-
-#homeIcon {
-    /*border: 1px solid red;*/
-    scale: 0.65;
-    padding: 0 1px 0 0;
+    scale: 0.8;
 }
 
 .childrenContainer {
@@ -134,7 +128,7 @@ hr {
     font-weight: 600;
     color: rgba(117, 212, 125, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
-    margin: 4px 16px 4px 16px;
+    margin: 4px 16px 2px 16px;
 }
 
 .windowContent h2 {
@@ -144,7 +138,7 @@ hr {
     font-weight: 600;
     color: rgba(110, 172, 228, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
-    margin: 4px 16px 4px 16px;
+    margin: 4px 16px 2px 16px;
 }
 
 .windowContent h3 {
@@ -154,7 +148,7 @@ hr {
     font-weight: 600;
     color: rgba(209, 167, 233, 100);
     text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
-    margin: 4px 16px 4px 16px;
+    margin: 4px 16px 2px 16px;
 }
 
 .windowContent p {

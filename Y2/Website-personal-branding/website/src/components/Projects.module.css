@@ -3,7 +3,7 @@
     display: grid;
     margin: 0;
     padding: 0;
-    background-image: url("/dokkaebi.jpg");
+    background-image: url("../assets/dokkaebi.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,15 +13,19 @@
 
 .showcaseImage {
     border: 2px solid rgba(43, 42, 51, 1);
-    box-shadow: 0 0 0.5rem mistyrose;
+    box-shadow: 0 0 1rem #111111;
 }
 
 #chadbotClear {
-    margin: 24px 24px 24px 24px;
+    margin: 12px 24px 24px 24px;
     width: 40rem;
 }
 
 #chadbotQuery {
     margin: 24px 24px 24px 24px;
     width: 40rem;
+}
+
+#ndwLink {
+    margin: 0 0 0 0;
 }

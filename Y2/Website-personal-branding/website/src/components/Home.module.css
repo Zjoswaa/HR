@@ -3,7 +3,7 @@
     display: grid;
     margin: 0;
     padding: 0;
-    background-image: url("/dokkaebi.jpg");
+    background-image: url("../assets/dokkaebi.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,4 +18,9 @@
     background-color: rgba(20, 19, 25, 1);;
     border-radius: 4px;
     border: 1px solid rgba(43, 42, 51, 1);
+}
+
+.mainContainer strong {
+    font-weight: bold;
+    color: burlywood;
 }

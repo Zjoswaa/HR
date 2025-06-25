@@ -3,7 +3,7 @@
     display: grid;
     margin: 0;
     padding: 0;
-    background-image: url("/dokkaebi.jpg");
+    background-image: url("../assets/dokkaebi.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

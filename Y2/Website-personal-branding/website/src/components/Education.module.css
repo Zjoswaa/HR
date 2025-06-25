@@ -11,6 +11,7 @@
     width: 100%;
 }
 
-.mainContainer ul {
-    list-style: inside;
+.mainContainer strong {
+    font-weight: bold;
+    color: burlywood;
 }
