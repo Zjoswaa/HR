@@ -24,3 +24,45 @@
     font-weight: bold;
     color: burlywood;
 }
+
+.quickButtons button:first-child {
+    margin-right: 8px;
+}
+
+.quickButtons {
+    margin: 16px 16px 16px 16px;
+}
+
+.quickButtons button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.quickButtons button:hover {
+    cursor: pointer;
+}
+
+.quickButtons #viewProjects {
+    transition: background-color 0.3s ease-out;
+    border: 1px solid #20732F;
+    background-color: #29903B;
+    color: whitesmoke;
+}
+
+.quickButtons #viewProjects:hover {
+    transition: background-color 0.3s ease-out;
+    background-color: #20732F;
+}
+
+.quickButtons #contactMe {
+    transition: background-color 0.3s ease-out;
+    border: 1px solid #006296;
+    background-color: #007BBC;
+    color: whitesmoke;
+}
+
+.quickButtons #contactMe:hover {
+    transition: background-color 0.3s ease-out;
+    background-color: #006296;
+}

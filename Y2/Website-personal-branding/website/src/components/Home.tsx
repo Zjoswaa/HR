@@ -20,6 +20,10 @@ export default function Home() {
                 <p><strong>Welcome!</strong></p>
                 <p>My name is <strong>Joshua van der Jagt</strong>, I am a computer science student with a passion for creating robust, well-working and good-looking projects.</p>
                 <p>On this website you can find projects I have made and worked on, any relevant information about me, and ways to contact me.</p>
+                <div className={styles.quickButtons}>
+                    <button id={styles.viewProjects} onClick={() => handleDirectoryClick("/projects")}>View my Projects</button>
+                    <button id={styles.contactMe} onClick={() => handleDirectoryClick("/contact")}>Contact Me</button>
+                </div>
                 <hr/>
 
                 <h2>Navigation</h2>
