@@ -44,25 +44,25 @@
 }
 
 .quickButtons #viewProjects {
-    transition: background-color 0.3s ease-out;
+    transition: background-color 0.2s ease-out;
     border: 1px solid #20732F;
     background-color: #29903B;
     color: whitesmoke;
 }
 
 .quickButtons #viewProjects:hover {
-    transition: background-color 0.3s ease-out;
-    background-color: #20732F;
+    transition: background-color 0.2s ease-out;
+    background-color: #3E9B4E;
 }
 
 .quickButtons #contactMe {
-    transition: background-color 0.3s ease-out;
+    transition: background-color 0.2s ease-out;
     border: 1px solid #006296;
     background-color: #007BBC;
     color: whitesmoke;
 }
 
 .quickButtons #contactMe:hover {
-    transition: background-color 0.3s ease-out;
-    background-color: #006296;
+    transition: background-color 0.2s ease-out;
+    background-color: #1988C2;
 }
